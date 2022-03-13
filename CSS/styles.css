@@ -61,7 +61,7 @@ a, a:hover {
 }
 
 #almovie-card-list{
-    padding: 40px 10px;
+    padding: 0px 10px;
 }
 
 .almovie-card{
@@ -167,3 +167,39 @@ a, a:hover {
     align-items: center;
     justify-content: space-between;
 }
+
+.almovie-pagination-container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.almovie-pagination-box {
+    width: 180px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.almovie-pagination-box p {
+    margin: 0;
+    font-size: 12px;
+    color: var(--color-primary);
+    font-weight: 400;
+}
+
+.almovie-pagination-box button {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.almovie-pagination-box button:disabled {
+    border: 1px solid var(--text-light-gray;
+}
+
